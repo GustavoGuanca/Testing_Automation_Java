@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-14T01:44:06 ART" name="All Test Suite" finished-at="2023-08-14T01:44:42 ART" duration-ms="35594">
+    <groups>
+    </groups>
+    <test started-at="2023-08-14T01:44:06 ART" name="test2" finished-at="2023-08-14T01:44:29 ART" duration-ms="22978">
+      <class name="parallelTesting.ParallelTest2">
+        <test-method signature="LoginTest()[pri:0, instance:parallelTesting.ParallelTest2@6356695f]" started-at="2023-08-14T01:44:06 ART" name="LoginTest" finished-at="2023-08-14T01:44:29 ART" duration-ms="22901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- parallelTesting.ParallelTest2 -->
+    </test> <!-- test2 -->
+    <test started-at="2023-08-14T01:44:06 ART" name="test1" finished-at="2023-08-14T01:44:42 ART" duration-ms="35594">
+      <class name="parallelTesting.ParallelTest1">
+        <test-method signature="homepageTitle()[pri:0, instance:parallelTesting.ParallelTest1@1ddf84b8]" started-at="2023-08-14T01:44:06 ART" name="homepageTitle" finished-at="2023-08-14T01:44:25 ART" duration-ms="18934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTitle -->
+        <test-method signature="logoTest()[pri:0, instance:parallelTesting.ParallelTest1@1ddf84b8]" started-at="2023-08-14T01:44:25 ART" name="logoTest" finished-at="2023-08-14T01:44:42 ART" duration-ms="16583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+      </class> <!-- parallelTesting.ParallelTest1 -->
+    </test> <!-- test1 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
